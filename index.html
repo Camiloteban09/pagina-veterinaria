@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animalandia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Animalandia</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#cuidados">Cuidados y Precauciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="inicio">
+                <h2>¡Bienvenidos a Animalandia!</h2>
+                <p>En Animalandia , entendemos que tus mascotas son más que solo animales; son parte de tu familia. Nuestro compromiso es brindarles la atención y el cuidado que merecen en un ambiente amoroso y profesional. Sabemos que la salud y el bienestar de tus compañeros peludos son de suma importancia para ti, y es por eso que nos esforzamos por ofrecer servicios de la más alta calidad..</p>
+            </section>
+            <section id="servicios">
+                <h2>Nuestros Servicios</h2>
+                Desde consultas veterinarias hasta cirugías complejas , nuestro equipo de veterinarios altamente capacitados está preparado para afrontar cualquier situación que su mascota pueda necesitar. Ofrecemos una amplia gama de servicios que incluyen:
+                <div class="service">
+                    <img src="imagenes/hozpitalizacion.jpeg" alt="hozpitalizacion"> 
+                    <h3>Consultas Veterinarias</h3>
+                    <p>Nuestros veterinarios altamente capacitados brindan atención integral para el diagnóstico y tratamiento de tus mascotas.</p>
+                    <h4>Información Adicional:</h4>
+                    <ul>
+                        <li>Ayudas Diagnósticos : Utilizamos tecnología avanzada para proporcionar diagnósticos precisos y rápidos.</li>
+                        <li>Hospitalización : Contamos con instalaciones adecuadas para el cuidado intensivo de tus mascotas cuando lo necesiten.</li>
+                        <li>Urgencias 24 Horas : Estamos aquí para ti y tu mascota en cualquier momento, porque la salud no tiene horario.</li>
+                        <li>Medicina Preventiva : Creemos que la prevención es la clave para mantener a su mascota saludable y feliz.</li>
+                        <li>Trámites de Viaje : Si planeas viajar con tu mascota, te ayudamos con todos los requisitos necesarios.</li>
+                    
+                       
+                    </ul>
+                </div>
+                <div class="service">
+                    <img src="imagenes/vacunacion.camilo.webp" alt="vacunacion"> 
+                    <h3>Vacunaciones</h3>
+                    <p>Ofrecemos un programa de vacunación personalizado para proteger a tu mascota de enfermedades comunes.</p>
+                    <h4>Tipos de Vacunas:</h4>
+                    <ul>
+                        <li>Vacuna contra la rabia.</li>
+                        <li>Vacunas para enfermedades como parvovirus y moquillo.</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <img src="imagenes/bañowebcamilo.png" alt="baños y esteticas">
+                    <h3>Baños y Estética</h3>
+                    <p>Ofrecemos servicios de baño, corte de uñas y estética para mantener a tu mascota limpia y hermosa.</p>
+                    <h4>Servicios Incluidos:</h4>
+                    <ul>
+                        <li>Baños con productos especiales según el tipo de piel.</li>
+                        <li>Corte de pelo y limpieza de oídos.</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="nosotros">
+                <h2>Nosotros</h2>
+                <img src="imagenes/grupodetrabajoveterinaaria.jpg" alt="grupo de trabajo">
+                <p>Animalandia cuenta con un equipo de veterinarios apasionados por el bienestar animal, ofreciendo servicios de alta calidad.</p>
+                <div class="carousel">
+                    <div class="carousel-item active"><img src="imagenes/laboratio clinico.png" alt="Imagen 1"></div>
+                    <div class="carousel-item"><img src="imagenes/perro con gafas.png" alt="Imagen 2"></div>
+                    <div class="carousel-item"><img src="imagenes/perro con gato.jpg" alt="Imagen 3"></div>
+                    <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </section>
+            <section id="cuidados">
+                <h2>Cuidados y Precauciones</h2>
+                <p>Es importante cuidar la salud de tus mascotas. Aquí algunos consejos y precauciones que debes considerar:</p>
+                <ul>
+                    <li><strong>Alimentación:</strong> Asegúrate de proporcionar una dieta equilibrada y adecuada para la especie y edad de tu mascota.</li>
+                    <li><strong>Ejercicio:</strong> Mantén a tu mascota activa con paseos regulares y juegos.</li>
+                    <li><strong>Chequeos Veterinarios:</strong> Programa visitas regulares al veterinario para chequeos y vacunas.</li>
+                    <li><strong>Prevención de Parásitos:</strong> Usa tratamientos preventivos contra pulgas, garrapatas y lombrices.</li>
+                    <li><strong>Ambiente Seguro:</strong> Mantén tu hogar y jardín libres de plantas tóxicas y productos químicos peligrosos.</li>
+                </ul>
+            </section>
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" id="correo" placeholder="Correo Electrónico" required>
+                    <textarea placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; Camilo Nuñez 4 semestre .</p>
+        <button class="scroll-to-top">Subir</button>
+    </footer>
+</body>
+</html>
